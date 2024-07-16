@@ -1,11 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello</title>
+    <title>A website</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.1/css/bulma.min.css">
+    <style>
+        /* Custom CSS for smaller fonts */
+        .hero .title {
+            font-size: 1.5rem;
+            /* Adjust the size as needed */
+        }
+
+        .hero .subtitle {
+            font-size: 1rem;
+            /* Adjust the size as needed */
+        }
+
+        .card-content {
+            min-height: 10rem;;
+        }
+
+        .card .title {
+            font-size: 1.2rem;
+            /* Adjust the size as needed */
+        }
+
+        .card .subtitle {
+            font-size: 0.875rem;
+            /* Adjust the size as needed */
+        }
+
+        .card-footer-item {
+            font-size: 0.875rem;
+            /* Adjust the size as needed */
+        }
+
+    </style>
 </head>
+
 <body>
-    <h1>Hello</h1>
+
+    <section class="hero is-link is-small">
+        <div class="hero-body">
+            <div class="container has-text-centered">
+                <h1 class="title">
+                    Nothing Much To See Here
+                </h1>
+                <h2 class="subtitle">
+                    Just a few things that might amuse you
+                </h2>
+            </div>
+        </div>
+    </section>
+    <section class="section mt-0">
+        <div class="container">
+            <div class="columns is-multiline">
+
+                <div class="column is-one-third">
+                    <div class="card">
+                        <div class="card-content has-text-centered">
+                            <p class="title is-4 mb-3">Luniland</p>
+                            <p class="subtitle">A browser-based homage to the famous Atari Lunar Lander game</p>
+                        </div>
+                        <footer class="card-footer">
+                            <a href="https://luniland.halabe.com" class="card-footer-item">Play Luniland</a>
+                        </footer>
+                    </div>
+                </div>
+
+                <div class="column is-one-third">
+                    <div class="card">
+                        <div class="card-content has-text-centered">
+                            <p class="title is-4 mb-3">dan's Nerdle</p>
+                            <p class="subtitle">A mobile / browswer based homage to WORDLE. Play as many times as you
+                                want.</p>
+                        </div>
+                        <footer class="card-footer">
+                            <a href="https://nerdle.halabe.com" class="card-footer-item">Play Dan's Nerdle</a>
+                        </footer>
+                    </div>
+                </div>
+                <!-- Project 3 -->
+                <div class="column is-one-third">
+                    <div class="card">
+                        <div class="card-content has-text-centered">
+                            <p class="title is-4 mb-3">Halapropisms</p>
+                            <p class="subtitle">An app to browse "halapropisms", which are malapropisms heard by or
+                                reported to me.</p>
+                        </div>
+                        <footer class="card-footer">
+                            <a href="https://halapropisms.halabe.com" class="card-footer-item">See Halapropisms</a>
+                        </footer>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
+
 </html>
